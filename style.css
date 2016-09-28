@@ -11,6 +11,24 @@ h1 {
   color: #DD5555;
 }
 
+td {
+  font-weight: 300;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+li > a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+li > a:hover{
+  color: #DD5555;
+}
+
 .img-circle {
   border-radius: 50%;
   width: 200px;
@@ -21,31 +39,13 @@ h1 {
   padding: 10px;
 }
 
-td {
-  font-weight: 300;
-}
-
 .list-inline {
   list-style-type: none;
   padding-left: 0;
 }
 
-li {
-  display: inline-block;
-  padding: 20px;
-}
-
 .text-center {
   text-align: center;
-}
-
-li > a {
-  text-decoration: none;
-  color: #ccc;
-}
-
-li > a:hover{
-  color: #DD5555;
 }
 
 .but-red {
@@ -62,7 +62,7 @@ li > a:hover{
 }
 
 .container {
-  width: 500px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -87,13 +87,36 @@ li > a:hover{
   display: block;
 }
 
+#sidebar {
+  position: fixed;
+  background-color: #384047;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
 
+#page-content {
+  margin-left: 150px;
+}
 
+#sidebar ul {
+  padding-top: 20px;
+}
 
+#sidebar li {
+  padding: 12px;
+  list-style-type: none;
+}
 
+#sidebar a {
+  font-size: 25px;
+  color: #788188;
+  text-align: center;
+}
 
-
-
-
+#sidebar a:hover {
+  color: white;
+}
 
 

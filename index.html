@@ -11,88 +11,106 @@
 
     <!-- Your style -->
     <link rel="stylesheet" href="style.css">
-
   </head>
 
 
-  <div class ="container">
-    <body>
-     <div class="card">
-        <img src="images/profil.jpg" class="img-circle" alt="Photo de profil">
-       <h1>Killian AVOCAT-BENAN</h1>
-       <h2>Student @ Le Wagon</h2>
-       <p>After 3 years in financial markets, I got bored and launched Le Wagon. Our mission: <strong>bring technical skills to creative people.</strong></p>
-       <a href="www.github.com" class="but-red">See you yourself</a>
-     </div>
+  <body>
+    <div id="sidebar">
+      <ul>
+        <li class="icon-center"><a href="#summary">
+          <i class="fa fa-info-circle icon-sidebar"></i>
+        </a></li>
+        <li class="icon-center"><a href="#favorites-movies">
+          <i class="fa fa-file-video-o icon-sidebar"></i>
+        </a></li>
+        <li class="icon-center"><a href="#footer">
+          <i class="fa fa-life-ring icon-sidebar"></i>
+        </a></li>
+      </ul>
+    </div>
 
-      <div class ="card">
-        <ul class="list-inline">
-          <li class="text-center"><a href="www.facebook.fr/killian.avocat-benan">
-            <i class="fa fa-facebook icon"></i> Facebook
+
+
+    <div id="page-content">
+      <div class ="container">
+       <div class="card" id="summary">
+          <img src="images/profil.jpg" class="img-circle" alt="Photo de profil">
+         <h1>Killian AVOCAT-BENAN</h1>
+         <h2>Student @ Le Wagon</h2>
+         <p>After 3 years in financial markets, I got bored and launched Le Wagon. Our mission: <strong>bring technical skills to creative people.</strong></p>
+         <a href="www.github.com" class="but-red">See you yourself</a>
+       </div>
+
+        <div class ="card">
+          <ul class="list-inline">
+            <li class="text-center"><a href="https://www.facebook.com/killian.avocat">
+              <i class="fa fa-facebook icon"></i> Facebook
+              </a></li>
+            <li class="text-center"><a href="https://www.linkedin.com/in/killian-avocat-benan-77960a66?trk=nav_responsive_tab_profile_pic">
+              <i class="fa fa-linkedin icon"></i> Linkedin
             </a></li>
-          <li class="text-center"><a href="https://www.linkedin.com/in/killian-avocat-benan">
-            <i class="fa fa-linkedin icon"></i> Linkedin
-          </a></li>
-          <li class="text-center"><a href="https://twitter.com/Killian_AB?lang=fr">
-            <i class="fa fa-twitter icon"></i> Twitter
-          </a></li>
-        </ul>
-      </div>
-
-
-      <div class="card">
-        <h2>My favorites movies</h2>
-          <table class="movies">
-            <tbody>
-
-              <tr>
-                <td><img src="images/avatar.jpg" class="img-movie" alt="Avatar"></td>
-                <td>
-                  <h3>Avatar</h3>
-                  <p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris diligentia disciplinaque munita.</p>
-                </td>
-              </tr>
-
-              <tr>
-                <td><img src="images/gladiator.jpg" class="img-movie" alt="Gladiator" ></td>
-                <td>
-                  <h3>Gladiator</h3>
-                  <p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris diligentia disciplinaque munita.</p>
-                </td>
-              </tr>
-
-              <tr>
-                <td>
-                  <img src="images/i-robot.jpg" class="img-movie" alt="I-Robot">
-                </td>
-                <td>
-                  <h3>I-Robot</h3>
-                  <p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris diligentia disciplinaque munita.</p>
-                </td>
-              </tr>
-
-          </tbody>
-        </table>
-      </div>
-
-
-      <div class="card">
-        <h2>About</h2>
-          <p>This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.</p>
-
-        <ul class="list-inline">
-          <li class="text-center"><a href="#">
-            <i class="fa fa-heart icon"></i>
+            <li class="text-center"><a href="https://twitter.com/Killian_AB?lang=fr">
+              <i class="fa fa-twitter icon"></i> Twitter
             </a></li>
-          <li class="text-center"><a href="#">
-            <i class="fa fa-share icon"></i>
-          </a></li>
-          <li class="text-center"><a href="#">
-            <i class="fa fa-star icon"></i>
-          </a></li>
-        </ul>
-      </div>
+          </ul>
+        </div>
 
-    </body>
-  </div>
+
+        <div class="card" id="favorites-movies">
+          <h2>My favorites movies</h2>
+            <table class="movies">
+              <tbody>
+
+                <tr>
+                  <td><img src="images/avatar.jpg" class="img-movie" alt="Avatar"></td>
+                  <td>
+                    <h3>Avatar</h3>
+                    <p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris diligentia disciplinaque munita.</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td><img src="images/gladiator.jpg" class="img-movie" alt="Gladiator" ></td>
+                  <td>
+                    <h3>Gladiator</h3>
+                    <p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris diligentia disciplinaque munita.</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <img src="images/i-robot.jpg" class="img-movie" alt="I-Robot">
+                  </td>
+                  <td>
+                    <h3>I-Robot</h3>
+                    <p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris diligentia disciplinaque munita.</p>
+                  </td>
+                </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+
+        <div class="card" id="footer">
+          <h2>About</h2>
+            <p>This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.</p>
+
+          <ul class="list-inline">
+            <li class="text-center"><a href="#">
+              <i class="fa fa-heart icon"></i>
+              </a></li>
+            <li class="text-center"><a href="#">
+              <i class="fa fa-share icon"></i>
+            </a></li>
+            <li class="text-center"><a href="#">
+              <i class="fa fa-star icon"></i>
+            </a></li>
+          </ul>
+        </div></div>
+    </div>
+
+  </body>
+
+
 </html>
